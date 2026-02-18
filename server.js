@@ -20,6 +20,7 @@ const allowedOrigins = [
     'http://localhost:5173', // Local development
     'http://localhost:3000',
     'https://master.d1oxiphkrlrdlz.amplifyapp.com',
+    'https://hrms-backend-tau.vercel.app',
     'https://requin.in',
     process.env.WEB_API // Production env
 ];
