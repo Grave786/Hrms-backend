@@ -17,7 +17,7 @@ connectDB();
 app.use(express.json());
 app.use(cookieParser());
 const allowedOrigins = [
-    'http://localhost:5173', // Local development
+    'http://localhost:5173',
     'http://localhost:3000',
     'https://master.d1oxiphkrlrdlz.amplifyapp.com',
     'https://hrms-backend-tau.vercel.app',
